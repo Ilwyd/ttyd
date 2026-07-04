@@ -172,6 +172,7 @@ typedef struct MarioWork {
     f32 targetYaw;                 // 0x198
     u8 unk19C[0x1A0 - 0x19C];      // 0x19C
 	f32 directionView;             // 0x1A0
+	f32 unk1A4;                    // 0x1A4
     f32 unk1A8;                    // 0x1A8
     u8 unk1AC[0x1B4 - 0x1AC];      // 0x1AC
     Vec wPlayerCollisionBox;       // 0x1B4 JP, 0x1B8 US
