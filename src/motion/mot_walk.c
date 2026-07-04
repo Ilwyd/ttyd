@@ -58,7 +58,7 @@ f32 marioGetWalkSpd(void) {
     return walkSpeed;
 }
 
-void marioWalkDashSe(HitObj* hitObj, u32 arg1) {
+void marioWalkDashSe(HitEntry* hitObj, u32 arg1) {
     s32 hitAttr;
     MarioWork* mario;
 
